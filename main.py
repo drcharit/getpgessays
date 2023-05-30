@@ -3,10 +3,8 @@ import requests
 from bs4 import BeautifulSoup
 import pdfkit
 import re
-import time
 import os
 import calendar
-import glob
 
 feed_url = "http://www.aaronsw.com/2002/feeds/pgessays.rss"
 sFileSavePath = "/Users/charitbhograj/Dropbox/PG Essays/"
@@ -63,6 +61,6 @@ for entry in feed.entries:
                 print(f"Saved: {filename}.pdf")
             except Exception as e:
                 print(f"Error processing: {filename}. Error: {str(e)}")
-        #endif
-    #endif fileexists
+#        endif
+#    endif fileexists
 #endfor
