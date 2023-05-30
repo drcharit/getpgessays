@@ -7,7 +7,7 @@ import os
 import calendar
 
 feed_url = "http://www.aaronsw.com/2002/feeds/pgessays.rss"
-sFileSavePath = "/Users/charitbhograj/Dropbox/PG Essays/"
+sFileSavePath = ""
 
 feed = feedparser.parse(feed_url)
 
